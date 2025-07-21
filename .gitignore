@@ -1,0 +1,43 @@
+# Ignore compiled binaries and object files
+*.o
+*.obj
+*.exe
+*.out
+*.class
+
+# Ignore build/ and bin/ folders
+/build/
+/bin/
+
+# Ignore temporary or backup files
+*~
+*.log
+*.tmp
+*.swp
+*.swo
+
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore Mac/Linux system files
+.DS_Store
+Thumbs.db
+
+# Ignore CMake or Makefile build artifacts
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Ignore Python virtual environments if used
+venv/
+__pycache__/
+
+# Ignore generated CSV or results
+*.csv
+*.dat
+
+# Ignore dependency manager fol
